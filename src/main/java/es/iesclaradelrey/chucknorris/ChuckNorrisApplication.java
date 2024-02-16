@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
  * ChuckNorrisApplication
- * @version 0.1
+ * @version 0.1.1
  * @author Eduardo Barra Balao
  */
 
