@@ -7,7 +7,7 @@ import org.springframework.web.client.RestTemplate;
 @RestController
 public class ClienteREST {
     @GetMapping("/chuck")
-        public String obtenerChuck() {
+    public String obtenerChuck() {
         String url = "https://api.chucknorris.io/jokes/random";    // Cambia la URL según tu API REST
 
         RestTemplate restTemplate = new RestTemplate();
